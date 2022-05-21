@@ -5,7 +5,8 @@ for i in range(0,n):
     my_list.append(elements)
 
 print(my_list)
-
+List2 = []
 for i in my_list:
     if i >=0:
-        print(i)
+        List2.append(i)
+print("Positive no. from list are :-",List2)       
